@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "536764669344",
+    "project_id": "roll2win-db9e1",
+    "storage_bucket": "roll2win-db9e1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536764669344:android:5a84fafbeaa4d7da3c18c5",
+        "android_client_info": {
+          "package_name": "com.ludo_flash.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWcG_B2H_LH6j4YNKqc4nSfz3mxxotIgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
