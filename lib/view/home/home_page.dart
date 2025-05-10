@@ -251,7 +251,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 height: height * 0.01,
                               ),
                               const Text(
-                                "Ludo Supreme",
+                                "Ludo Flash",
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.w600,

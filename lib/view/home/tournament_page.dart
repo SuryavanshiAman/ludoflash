@@ -193,7 +193,7 @@ class LudoSupremeState extends State<LudoSupreme> {
                     }),
                 title: !_showTitle
                     ? const Text(
-                        " Ludo Supreme",
+                        " Ludo Flash",
                         style: TextStyle(
                             fontSize: 18, fontWeight: FontWeight.w700),
                       )
@@ -214,7 +214,7 @@ class LudoSupremeState extends State<LudoSupreme> {
                               height: height * 0.12,
                               width: width * 0.3,
                               child: Image.asset(
-                                Assets.imagesLudoSupreem,
+                                Assets.imagesZupee,
                                 fit: BoxFit.fill,
                               )),
                           SizedBox(

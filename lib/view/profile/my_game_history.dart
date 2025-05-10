@@ -183,7 +183,7 @@ class _GameHistoryScreenState extends State<GameHistoryScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            'Ludo Supreme',
+                            'Ludo Flash',
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.black,

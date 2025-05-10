@@ -21,7 +21,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   final List<Map<String, String>> topScorers = [
     {
       'name': 'Yogesh lodhi',
-      'subtitle': 'Mahasangram Winners\nLudo Supreme',
+      'subtitle': 'Mahasangram Winners\nLudo Flash',
       'imageUrl': 'https://placekitten.com/200/200',
     },
     {

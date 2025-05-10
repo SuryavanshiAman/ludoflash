@@ -56,7 +56,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
         // leadingWidth: 220,
         leading: const CustomBackButton(),
         title: const Text(
-          "Ludo Supreme League Maukebaaz",
+          "Ludo Flash League Maukebaaz",
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
         ),
       ),
@@ -65,7 +65,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
         children: [
           SizedBox(height: height * 0.03),
           const Text(
-            "Ludo Supreme League",
+            "Ludo Flash League",
             style: TextStyle(
                 fontSize: 18, color: tertiary, fontWeight: FontWeight.w600),
           ),
@@ -101,7 +101,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
                             color: tertiary, fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "Ludo Supreme League Maukebaaz",
+                        "Ludo Flash League Maukebaaz",
                         style: TextStyle(
                             color: tertiary, fontWeight: FontWeight.w600),
                       )

@@ -10,9 +10,9 @@ import 'package:flutter/foundation.dart'
 /// ```dart
 /// import 'firebase_options.dart';
 /// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
+// / await Firebase.initializeApp(
+// /   options: DefaultFirebaseOptions.currentPlatform,
+// / );
 /// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
@@ -41,21 +41,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAW_6aaRBZWw3u_fpG1djK6LijseQ_aH-I',
-    appId: '1:471366946421:web:863852eba5898f1cab723c',
-    messagingSenderId: '471366946421',
-    projectId: 'roll2win-385d2',
-    authDomain: 'roll2win-385d2.firebaseapp.com',
-    storageBucket: 'roll2win-385d2.firebasestorage.app',
-    measurementId: 'G-HH57L3TSL9',
+    apiKey: 'AIzaSyALIyykBHe2SeQTeuicDoVKxJqYaMwgZ3A',
+    appId: '1:42664568509:web:5280a74e8ca2cae98139d4',
+    messagingSenderId: '42664568509',
+    projectId: 'ludoflash-dad44',
+    authDomain: 'ludoflash-dad44.firebaseapp.com',
+    storageBucket: 'ludoflash-dad44.firebasestorage.app',
+    measurementId: 'G-L6WQJ9FKV6',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD4nVn1F7JSyNDq8Iu-UMEUjmqHJ9-hts4',
-    appId: '1:471366946421:android:d47ec8e34f98e04aab723c',
-    messagingSenderId: '471366946421',
-    projectId: 'roll2win-385d2',
-    storageBucket: 'roll2win-385d2.firebasestorage.app',
+    apiKey: 'AIzaSyAJ312DxrTw_ibynrqoOikpUz-lPQPDgA0',
+    appId: '1:42664568509:android:71c20527ee1fb3a78139d4',
+    messagingSenderId: '42664568509',
+    projectId: 'ludoflash-dad44',
+    storageBucket: 'ludoflash-dad44.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -77,12 +77,13 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAW_6aaRBZWw3u_fpG1djK6LijseQ_aH-I',
-    appId: '1:471366946421:web:59a8310bd545d6afab723c',
-    messagingSenderId: '471366946421',
-    projectId: 'roll2win-385d2',
-    authDomain: 'roll2win-385d2.firebaseapp.com',
-    storageBucket: 'roll2win-385d2.firebasestorage.app',
-    measurementId: 'G-9Y3V1CJ8Z1',
+    apiKey: 'AIzaSyALIyykBHe2SeQTeuicDoVKxJqYaMwgZ3A',
+    appId: '1:42664568509:web:f91a589a6432874b8139d4',
+    messagingSenderId: '42664568509',
+    projectId: 'ludoflash-dad44',
+    authDomain: 'ludoflash-dad44.firebaseapp.com',
+    storageBucket: 'ludoflash-dad44.firebasestorage.app',
+    measurementId: 'G-TVRS5Z6F77',
   );
+
 }

@@ -25,6 +25,7 @@ import 'package:ludo_flash/view_model/send_result_view_model.dart';
 import 'package:ludo_flash/view_model/timer_view_model.dart';
 import 'package:ludo_flash/view_model/tournament_view_moedl.dart';
 import 'package:ludo_flash/view_model/transaction_history_view_model.dart';
+import 'firebase_options.dart';
 import 'language/english.dart';
 import 'view/Game/ludo_provider.dart';
 import 'view_model/add_bank_details_view_model.dart';
@@ -45,24 +46,30 @@ import 'view_model/withdraw_view_model.dart';
 void main() async {
   HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
-  if(kIsWeb) {
-    await Firebase.initializeApp(
-        options: const FirebaseOptions(
-            apiKey: "AIzaSyBX3NAr87DrxvDsbFBjBnbMP1QBkHamT_w",
-            authDomain: "ludozupee-d8599.firebaseapp.com",
-            databaseURL: "https://hopgamming-532b5-default-rtdb.firebaseio.com",
-            projectId: "ludozupee-d8599",
-            storageBucket: "ludozupee-d8599.appspot.com",
-            messagingSenderId: "127939317909",
-            appId: "1:127939317909:web:040220605e7a8a057f4b9c",
-            measurementId: "G-Y63KYVV5RF"
-        )
-    );
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
-    // YoutubeLink();
-  }
-  else{
-    await Firebase.initializeApp();}
+  // if(kIsWeb) {
+  //   // await Firebase.initializeApp(
+  //   //     options: const FirebaseOptions(
+  //   //         apiKey: "AIzaSyBX3NAr87DrxvDsbFBjBnbMP1QBkHamT_w",
+  //   //         authDomain: "ludozupee-d8599.firebaseapp.com",
+  //   //         databaseURL: "https://hopgamming-532b5-default-rtdb.firebaseio.com",
+  //   //         projectId: "ludozupee-d8599",
+  //   //         storageBucket: "ludozupee-d8599.appspot.com",
+  //   //         messagingSenderId: "127939317909",
+  //   //         appId: "1:127939317909:web:040220605e7a8a057f4b9c",
+  //   //         measurementId: "G-Y63KYVV5RF"
+  //   //     )
+  //   // );
+  //   await Firebase.initializeApp(
+  //      options: DefaultFirebaseOptions.currentPlatform,
+  //    );
+  //   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+  //   // YoutubeLink();
+  // }
+  // else{
+  //   await Firebase.initializeApp();}
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 

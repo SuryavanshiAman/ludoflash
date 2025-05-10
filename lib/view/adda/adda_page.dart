@@ -141,12 +141,12 @@ class _AddaScreenState extends State<AddaScreen> {
                           ],
                         ),
                         const Text(
-                          'Ludo Supreme League Maukebaaz',
+                          'Ludo Flash League Maukebaaz',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                         const Text(
-                          'Players whoo have won big in Ludo Supreme League',
+                          'Players whoo have won big in Ludo Flash League',
                           style: TextStyle(
                               fontSize: 12,
                               fontWeight: FontWeight.bold,
